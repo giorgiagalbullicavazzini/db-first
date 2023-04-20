@@ -2,23 +2,23 @@
 
 | **PK (ID)** |    **columns**   | **data_types** |
 |:-----------:|:----------------:|:--------------:|
-| 1           | brand            | VARCHAR(25)    |
-| 2           | model            | VARCHAR(30)    |
-| 3           | price            | MEDIUMINT      |
-| 4           | km               | MEDIUMINT      |
-| 5           | transmission     | VARCHAR(15)    |
-| 6           | year             | YEAR           |
-| 7           | fuel             | VARCHAR(15)    |
-| 8           | horsepower       | SMALLINT       |
-| 9           | type             | VARCHAR(20)    |
-| 10          | doors            | TINYINT        |
-| 11          | air_conditioning | TINYINT        |
-| 12          | radio            | TINYINT        |
-| 13          | bluetooth        | TINYINT        |
-| 14          | color            | VARCHAR(20)    |
-| 15          | interior_color   | VARCHAR(20)    |
-| 16          | tyres            | VARCHAR(25)    |
-| 17          | cruise_control   | TINYINT        |
-| 18          | inspection       | DATE           |
-| 19          | speed            | TINYINT        |
-| 20          | license_plate    | VARCHAR(20)    |
+| 1           | brand            | VARCHAR(25) NOTNULL    |
+| 2           | model            | VARCHAR(30) NOTNULL    |
+| 3           | price            | MEDIUMINT NOTNULL      |
+| 4           | km               | MEDIUMINT NOTNULL      |
+| 5           | transmission     | VARCHAR(15) NULL       |
+| 6           | year             | YEAR NOTNULL           |
+| 7           | fuel             | VARCHAR(15) NOTNULL    |
+| 8           | horsepower       | SMALLINT NULL          |
+| 9           | type             | VARCHAR(20) NULL       |
+| 10          | doors            | TINYINT NULL           |
+| 11          | air_conditioning | TINYINT NULL           |
+| 12          | radio            | TINYINT NULL           |
+| 13          | bluetooth        | TINYINT NULL           |
+| 14          | color            | VARCHAR(20) NULL       |
+| 15          | interior_color   | VARCHAR(20) NULL       |
+| 16          | tyres            | VARCHAR(25) NULL       |
+| 17          | cruise_control   | TINYINT NULL           |
+| 18          | inspection       | DATE NULL              |
+| 19          | speed            | TINYINT NULL           |
+| 20          | license_plate    | VARCHAR(20) NOTNULL    |
